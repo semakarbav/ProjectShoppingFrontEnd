@@ -1,0 +1,19 @@
+<div class="content">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header"><h5 class="title">Kategori Sil</h5></div>
+            <div class="card-body">
+                <form [formGroup] ="categoryDeleteForm">
+                  <div class="form-group">
+                      <input type="number"
+                      id="categoryId" formControlName="categoryId" class="form-control" placeholder="Kategori Id giriniz">
+                  </div>
+                  
+                </form>
+            </div>
+            <div class="card-footer">
+                <button class="btn btn-fill btn-danger" (click)="delete()">Sil</button>
+            </div>
+        </div>
+ </div>
+</div>
